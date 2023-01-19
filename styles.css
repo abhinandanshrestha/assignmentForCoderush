@@ -242,12 +242,18 @@ input[type=text],textarea {
       display: block;
       text-align: left;
     }
+    .container {
+      max-width: 80vw;
+    }
+    #checkbox-section{
+      max-width: 80vw;
+    }
+    #Images{
+      max-width: 80vw;
+      border-radius: 50px;
+    }
     .grid-container {
-        display: grid;
-        gap:0;
-        padding:0;
-        grid-template-columns: 30% auto 30%;
-        border-radius: 50px;
+        display: block;
       }
       .text {
         font-size: 50%;
